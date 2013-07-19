@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>JDF-Info.com</title>
+<!-- Created & Coded by Michael Duvall -->
+<link rel="stylesheet" href="css/styles.css" title="JDF-Info Styles" type="text/css" media="screen">
+<link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.0/css/bootstrap-combined.min.css" rel="stylesheet">
+<link rel="stylesheet" href="css/jquery-ui.css" />
+<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+<script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+<script src="js/jqueryCalls.js"></script>
+</head>
+	<body style="background-color: rgb(215,215,215);">
+	 	
+	<div class="container" style="background-color: rgb(215,215,215);height:605px;">
+		
+		<div id="innerBG" class="container-narrow" style="height:605px; background-color:#rgb(215,215,215);">
+			<header>
+			<span id="jdfLogo"><img id="jdfInfoLogo" alt="JDF-Info.com Logo" src="images/jdf-info-logo.png"></span>
+			</header>
+			
+			<div id="tableWrapper">
+				<!-- need to build table next -->
+				<div>
+					<table id="contTable" >
+						<tr>
+							<td colspan="2" class="tdLong" id="opener">
+								<ul>
+									<li><img src="images/whatIsJDF.png" alt="What is JDF? Image"></li>
+									<li>What is JDF?</li>
+								</ul>
+								<div id="dialog" class="textBoxFont" title="What is JDF?">
+								<h4>What is JDF a.k.a Job Definition Format?</h4>
+
+<p>JDF is an XML(Extensible Markup Language) based language that stores variable job information in a schema, that is defined by the JDF <a href="http://www.cip4.org/documents/jdf_specifications/">specification</a>. In layman's terms, JDF can be viewed as an electronic job ticket that holds all the job information and communicates with other JDF enabled devices. Such devices include MIS's(workflow and production management systems), printers, proofers, RIPs controllers, etc. This communication allows the user to collect valuable metrics and view them in real-time. The valuable metrics can then be analyzed to determine numerous things such as production time, cost estimation and where bottle necks may occur in the workflow.</p>
+
+<p>There are many benefits to using JDF properly, user's can speed up production, elicit more accurate communications, reduce costs, reduce errors, reduce redundancy and reduce manual tasks - touch points in your workflow. Having this technology can eliminate the old, hand written job tickets that can cause many difficulties. For instance the clarity of a user's handwriting can and has, in many cases, severely reduced the flow of communications. In some instances the job ticket gets damaged from being passed from task to task. In addition the speed at which the job ticket is passed around and deciphered also becomes a drag on productivity.</p>
+
+Needles to say, this is a very simplified explanation of JDF, more detailed information can be found <a href="http://www.cip4.org/documents/jdf_specifications/html/Overview_of_JDF.html#0_99983">here at CIP4's website.</a></div>
+							</td>
+							<td class="tdShort" id="jdfJmf">
+								<ul>
+									<li><img src="images/jmf.png" alt="JMF Image"></li>
+									<li>JMF</li>
+								</ul>
+								<div id="jmfBox" class="textBoxFont" title="What is JMF?">
+								<h4>The Role of the Job Messaging Format</h4>
+<p>The MIS or workflow system acts as the JDF agent. It may communicate with and command a controller. The controller is an important concept in JDF. A controller for a device on the floor may be embedded, a separate physical device, or actually in control of more than one device. We have even seen a couple of "departmental" controllers enter the market that deal with all the devices in a department (e.g., postpress).</p>
+<p>The language used to communicate between JDF agents and controllers is the Job Messaging Format (JMF). JMF is part of the JDF specification. JMF also is built in XML and is part of the JDF schema. JMF allows a controller to communicate to a JDF MIS or workflow system information, such as events (start, stop, error), status (available, offline, stalled, etc.), results (count, waste, etc.), and other details, such as who is the current operator.</p>
+
+<p>A controller may also "register" with a JDF MIS or workflow system letting it know it is available. Where a controller controls multiple devices, it can provide registration information for the devices it supports. Note: This is information like make and model and is not a substitute for device capabilities as described above.</p>
+
+<p>An MIS or workflow system may use JMF to command devices on the shop floor and may even be able to change the order of jobs in the queue. You may have noticed the heavy use of the word "may." In the JMF session you'll learn more about the options in JMF and the various levels of support a controller may provide for JMF. JMF messages may also be unidirectional (the MIS system provides the commands, but the controller does not respond) or bidirectional. Determining what JMF options will be required of your process automation strategy is an important part of creating an effective JDF equipment buying policy.</p>
+
+<p>JMF can also be used by one controller to provide commands to another controller. This is an important feature for supporting combined process and pipelining as described above.</p>
+
+							</div>
+							</td>
+							<td class="tdShort" id="jdfemail">
+								<ul>
+									<li><img src="images/jdfEmail.png" alt="Email Image"></li>
+									<li>Contact</li>
+								</ul>
+									<div id="emailBox" title="Contact Info" class="textBoxFont">
+										<address>
+											Michael Duvall<br> 
+											Computational Research Scientist<br>
+											<a href="http://www.printing.org/ctr" target="_blank">Printing.org</a><br>
+											Printing Industries of America<br>
+											200 Deer Run Rd<br>
+											Sewickley, Pa 15143<br>
+											USA
+										</address>
+									</div>
+								
+							</td>
+							<td colspan="2" class="tdLong" id="jdfTut">
+								<ul>
+									<li><img src="images/jdfTutorials.png" alt="JDF Tutorials Image"></li>
+									<li>JDF Tutorials</li>
+								</ul>
+								<div id="jdfTutBox" title="JDF Tutorials" class="textBoxFont">
+								<a href="http://www.cip4.org/overview/jdf_tutorial.html" class="tutLinks" target="_blank">Basic JDF Tutorial</a>
+								<br>
+								<a href="https://www.apogee.agfa.net/contents/KnowledgeBase/Apogee/Prepress/Downloads/Apogee-Advanced-Tutorial/Working-with-JDF-and-JMF-in-Apogee.html" class="tutLinks" target="_blank">JDF and JMF Advanced Tutorial</a>
+								<br>
+								<a href="http://www.adobe.com/products/jdf/overview.html" class="tutLinks" target="_blank">Job Definition Format (JDF)</a>
+								<br>
+								<a href="http://acrobat.wonderhowto.com/how-to/create-jdf-job-definitions-with-acrobat-and-indesign-3906/" class="tutLinks" target="_blank">How to Create JDF job definitions with Acrobat and InDesign</a>
+								<br>
+								<a href="http://www.prepressure.com/jdf/basics" class="tutLinks" target="_blank">JDF Basics</a>
+								<br>
+								<a href="http://desktoppub.about.com/od/printingfinishing/f/jdf.htm" class="tutLinks" target="_blank">What is JDF? </a>
+								<br>
+								<a href="http://www.slideserve.com/elda/welcome-to-the-heidelberg-jdf-tutorial" class="tutLinks" target="_blank">Welcome to the Heidelberg JDF Tutorial</a>
+								<br>
+								<a href="http://www.slideshare.net/stefanmeissner/introduction-to-jdf-jmf" class="tutLinks" target="_blank">Intro to JDF/JMF</a>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td class="tdShort" id="jdfSchem">
+							<ul>
+								<li><img src="images/schema.png" alt="Schema Image"></li>
+								<li class="schema">Schema</li>						
+							</ul>
+							</td>
+							
+							<td class="tdShort" id="cip4">
+								<ul>
+									<li><img src="images/cip4.png" alt="CIP4 Image"></li>
+									<li class="schema">CIP4</li>
+								</ul>
+							</td>
+							<td colspan="2" class="tdLong" id="jdfPrdCert">
+								<ul>
+									<li><img src="images/jdfProductCertification.png" alt="JDF Product Certification Image"></li>
+									<li>JDF Product Certification</li>
+								</ul>
+									<div id="jdfCertBox" class="textBoxFont" title="JDF Product Certification">
+										<h4>Product Certification Continues Success</h4>
+
+<p>JDF Product Certification will help your software integrate properly and efficiently. According to the CIP4 Integration Matrix, the current version of the JDF Integration Matrix includes 208 integrations where one of the two products involved is a JDF Certified product, and 28 integrations where both products are JDF Certified (as of February 9, 2012). With more companies signing up for certification, these numbers will grow.</p>
+<h4>Introduction to Product Certification</h4>
+
+<p>The following is a brief description on product certification testing procedures at Printing Industries of America. The company will register its product on the CIP4 website. Printing Industries of America will be in contact with you after to further discuss what is needed to certify your product. Once the product becomes available for certification, Printing Industries of America will run write-and-read tests to your product. If your product is only a Manager, then Printing Industries of America will test with only write files—only a Worker, only read files. Finally, if your product is a Manager and a worker, Printing Industries of America will test with both types of files.</p>
+
+<p>The files used in testing are universal for the ICS being tested. They are based on the golden ticket supplied by the individual workgroup. These files have been developed from the individual ICS documents and the specific requirements therein. The test case files have extended these capabilities to ensure that each of the requirements within the tables ...</p>
+<p><a href="http://www.printing.org/jdfcertification" class="tutLinks" target="_blank">To learn more visit</a></p>
+
+
+									</div>
+								
+							</td>
+							<td class="tdShort" id="jdfTools">
+								<ul>
+									<li><img src="images/tools.png" alt="Tools Image"></li>
+									<li>Tools</li>
+								</ul>
+							</td>
+							<td class="tdShort" id="jdfMis">
+								<ul>
+								<li><img src="images/mis.png" alt="MIS Image"></li>
+								<li>MIS</li>
+								</ul>
+								<div id="misBox" class="textBoxFont" title="Management Information System">
+									<h4>The Role of the “MIS” System</h4>
+<p>The term “MIS” system, as used in the JDF specification, is a bit a misnomer. MIS stands for “Management Information System,” a term in the 1960s that meant a reporting system that later in the 1970s and 1980s grew to incorporate accounting, billing, inventory, and other disparate management oversight functions. “MIS” as used in JDF is for the most part meant to cover workflow and production management systems — the business and production functions that one would expect to incorporate in a process automation project — and in our industry there are a variety of sizes and types of MIS systems ranging from enterprise-wide systems that may incorporate management reporting, accounting, and so on, to departmental workflow systems that may only control prepress operations.
+</p>
+<p>At their most basic, these systems must be able to accept JDF input and decompose the JDF and store the data in its internal database, and they must be able to compose JDF from its database for output. (Beware of one-way workflow systems — in the long-term, systems that take in JDF, but cannot output JDF may prove to be roadblocks to your process automation program.) This requirement implies that these systems must be able to read and validate JDF as well as write and validate JDF.</p>
+
+
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td colspan="2" class="tdLong" id="intCert">
+								<ul>
+									<li><img src="images/interoperability.png" alt="Interoperability Image"></li>
+									<li>Interoperability</li>
+								</ul>
+								<div id="intBox" class="textBoxFont" title="Interoperability and Certification Overview">
+									<h4>Interoperability and Certification Overview</h4>
+<p>No single device (i.e., printer, press, imagesetter) is likely to implement all that the <a href="http://www.cip4.org/documents/jdf_specifications/" class="tutLinks" target="_blank">JDF specification</a> provides for. For instance, if you are in the digital printing business, you may not care to facilitate data on hard case binding. A RIP need not facilitate JDF preflighting. A Stitcher probably doesn't need to handle image rendering data. To specify exactly what individual classes of devices need to do with JDF, CIP4 members introduced continually developing "Interoperability Conformance Specifications" (ICS) documents that provide the standard for individual classes of devices.
+
+ICS documents look at the interface between the manager of a job, (i.e., a workflow system, Print MIS, pressroom management system), and the worker (e.g, the system or software that will perform the desired process). In addition to a base ICS document that applies to all JDF-enabled devices, ICS documents have been published to cover a variety of interfaces, including:</p>
+							<ul>
+							<li>Binding</li>
+							<li>Commercial Web: MIS to WebPress</li>
+							<li>Customer to MIS</li>
+							<li>Integrated Digital Printing</li>
+							<li>Layout Creator to Imposition</li>
+							<li>MIS to Conventional Printing - Sheetfed</li>
+							<li>MIS to Finishing</li>
+							<li>MIS to Prepress</li>
+							<li>Newspaper: MIS to WebPress</li>
+							<li>Office Digital Printing</li>
+							<li>Prepress to Conventional Printing</li>
+							</ul>
+							
+<p>These ICS documents define the roles of the "manager" and "worker," including their ability to read (manager) and write (worker) JDF, minimum support for Job Messaging Format (JMF) options as well as additional data typing, defining how jobs files are to be exchanged or identified, and required support for particular JDF processes and resources. It's important to note ICS documents do not add to the JDF specification, but they
+provide additional constraints and are specific to the interface they define. (ICS documents are available to the public as PDF files for download. Please see <a href="http://www.cip4.org/document_archive/ics.php" class="tutLinks" target="_blank">http://www.cip4.org/document_archive/ics.php.)</a></p>
+
+<p>More ICS documents are in development and ICS documents will be used as the basis for product certification testing. CIP4 has signed on Printing Industries of America as the first product certification testing facility and others will be added in Europe and Asia. You will start seeing products labeled "JDF Certified" and each certification test will be focused on a specific ICS document.</p>
+								</div>
+							</td>
+							<td class="tdShort" id="qckFacts">
+								<ul>
+									<li><img src="images/quickFacts.png" alt="Quick Facts Image"></li>
+									<li>Fact's</li>
+								</ul>
+								<div id="intFctBox" class="textBoxFont" title="Quick Facts">
+									<ul>
+										<li> - <b>60%</b> Printers who have prioritized investing in Workflow Automation</li>
+										
+										<li> - <b>277%</b> Average ROI for JDF-enabled automation</li>
+										
+										<li> - <b>480%</b> Average ROI for fully automated, end-to-end automation</li>
+										
+										<li> - <b>6979</b> Average labor hours saved/year by printers who implement JDF</li>
+										
+									</ul> 
+									<p>(Sources: InfoTrends’ Production Software Investment Outlook and CIP4 CIPPI Case Studies)</p>
+								</div>
+							</td>
+							<td class="tdShort" id="asnJdf">
+								<ul>
+									<li><img src="images/asn.png" alt="ASN Image"></li>
+									<li>ASN</li>
+								</ul>
+							</td>
+							<td colspan="2" class="tdLong" id="jdfSpec">
+								<ul>
+									<li><img src="images/jdfSpecification.png" alt="JDF Specification Image"></li>
+									<li>JDF Specification</li>
+								</ul>
+							</td>
+						</tr>
+						</table> 
+				</div>
+			</div>
+			<footer>
+				<div id="copyRight">
+					<img alt="Running Man" src="images/runningMan.png"><a href="http://www.twitter.com/michael_duvall" id="copyInfo">Designed and Coded by Michael Duvall &copy;2013</a> | <span><a href="#" id="aboutJdfInof">About</a></span>
+					<div id="aboutBox" class="textBoxFont" title="About JDF-Info.com">JDF-Info.com was created as an info-graphic of sorts, that allows user's to quickly access information about JDF and it's associated technologies. It does this by giving brief answers on the subject accessed and/ or sends the user to the appropriate site to get a more in-depth explanation.</div>
+						
+				</div>
+				<span id="jdfInfoSocImages">
+				<span id="html5span" title="" ><img id="html5Logo" alt="HTML 5 logo" src="images/html5.png"></span>
+					<a href="http://www.twitter.com/JDF_Print_News" ><img alt="twitter image link" id="twitter" src="images/jdfInfoTwitter.png"></a>
+					<a href="http://www.linkedin.com/groups/Automation-Solutions-Network-1337107/about" ><img alt="linkedIn image link" id="linkedIn" src="images/jdfInfoLinkedIn.png"></a>
+					<a href="https://www.facebook.com/printingindustries" ><img alt="facebook image link" id="facebook" src="images/jdfInfoFacebook.png"></a>
+					
+				</span>
+			</footer>
+		</div>
+	<script src="js/bottomCalls.js"></script>
+	</div>
+</body>
+</html>
