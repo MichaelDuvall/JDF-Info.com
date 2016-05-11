@@ -1,0 +1,126 @@
+/* Coded by Michael Duvall */
+@font-face
+{
+	font-family: mainFont;
+	src:url('../fonts/PTC55F-webfont.ttf'),
+     	url('../fonts/PTC55F-webfont.eot');
+} 
+#innerBG{
+	background-image:url('../images/innerBG.jpg');
+	background-repeat:no-repeat;
+}
+.container-narrow {
+	margin: 0 auto;
+	max-width: 842px;
+}
+.container-inner {
+	margin: 0 auto;
+	max-width: 741px;
+}
+#tableWrapper{
+	margin-top:0px;
+	height: 369px;
+	width: 741px;
+	position:relative;
+	left:50px;
+}
+#contTable{
+	font-family: mainFont;
+	color: #666666;
+	height: 369px;
+	width: 741px;
+	border: 0px;
+	border-color: rgb(215,215,215);
+	border-collapse: separate;
+	border-spacing: 7px;
+	*border-collapse: expression('separate', cellSpacing = '7px');
+}
+td{
+	text-align: center;
+	background-color: #ffffff;
+	border: 1px solid #cccccc;
+}
+header{
+	margin-top: 10px;
+}
+#jdfInfoLogo{
+	margin-top:2px;
+	position:relative;
+	left:50px;
+}
+#copyRight{
+	float: left;
+	font-size: 11px;
+	margin-top: 15px;
+}
+#jdfInfoSocImages{
+	float: right;
+}
+.appendLi{
+	font-size: 12px;
+	list-style-type: none;
+	margin: 0px 0 0 -20px;
+}
+footer{
+	position: relative;
+	left: 56px;
+	margin: 30px 0 0 0;
+	width: 725px;
+	height: 60px;
+	}
+.tdLong{
+	width: 243px;
+	height: 118px;
+}
+.tdShort{
+	width:119px; 
+	height:118px;
+}
+ul{
+	list-style: none;
+	margin:10px;
+	padding:0px;
+}
+ul li img{
+	padding:10px;
+}
+ul li{
+	margin: 0px 0 0 -20px;
+}
+.shadowClass{
+	box-shadow: 1px 1px 15px 7px #888888;
+}
+.textBoxFont{
+	font-size: 12px;
+}
+.tutLinks{
+	text-decoration: underline;
+}
+hr{
+	padding: 1px;
+}
+.twitterColor{	
+	background-image: ("../images/twitterColor.png");
+}
+.twitterBW{
+	background-image: ("../images/jdfInfoTwitter.png");
+}
+#copyInfo, #aboutJdfInof{
+	color: #666666;
+}
+#html5Logo{
+	margin: 0px 208px 10px 0px;
+	float:left;
+}	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
